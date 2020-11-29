@@ -1,0 +1,283 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r Load the CSV data}
+library(readr)
+df <- read_csv("Dataset/Development_IT.csv")
+View(df)
+```
+
+```{r}
+#EDA - Exploratory Data Analysis
+```
+
+
+```{r}
+#Summary Statistic
+summary(df)
+```
+```{r}
+#Mode function
+Mode<-function(x){
+  uniquevalue<-unique(x)
+  tab <- tabulate(match(x,uniquevalue))
+  uniquevalue[tab==max(tab)]
+}
+
+Mode(df$num_subscribers)
+Mode(df$num_reviews)
+Mode(df$num_published_lectures)
+Mode(df$rating)
+Mode(df$avg_rating)
+Mode(df$created)
+Mode(df$published_time)
+```
+```{r}
+#Density plot to understand num_subscribers
+library(ggplot2)
+num_sub <- ggplot(df,aes(x=num_subscribers)) + 
+  geom_density(color="black", fill="red")
+num_sub
+num_sub + geom_vline(aes(xintercept=mean(num_subscribers)),
+            color="blue", linetype="dashed", size=1)
+```
+
+
+```{r}
+#Measures of spread for Subscribers
+#Standard Deviations
+cat("Range: ",range(df$num_subscribers),"\n")
+cat("Mean: ",mean(df$num_subscribers),"\n")
+cat("Standard Deviation:",sd(df$num_subscribers),"\n")
+
+#Skewness and Kurtosis
+library(moments)
+
+cat("Skewness:",skewness(df$num_subscribers),"\n")
+cat("Kurtosis:",kurtosis(df$num_subscribers))
+#Large positive value for skewness indicates its largely skewed towards right.
+#Positive excess kurtosis indicates flat-tailed distribution which is leptokurtic.
+```
+```{r}
+#Density plot to understand num_reviews
+num_rev <- ggplot(df,aes(x=num_reviews)) + 
+  geom_density(color="black", fill="blue")
+num_rev
+num_rev + geom_vline(aes(xintercept=mean(num_reviews)),
+            color="yellow", linetype="dashed", size=1)
+```
+```{r}
+#num_reviews
+cat("Range: ",range(df$num_reviews),"\n")
+cat("Mean: ",mean(df$num_reviews),"\n")
+cat("Standard Deviation:",sd(df$num_reviews),"\n")
+
+cat("Skewness:",skewness(df$num_reviews),"\n")
+cat("Kurtosis:",kurtosis(df$num_reviews))
+#Large positive value for skewness indicates its largely skewed towards right.
+#Positive excess kurtosis indicates flat-tailed distribution which is leptokurtic.
+```
+```{r}
+#Density plot to understand num_published_lectures
+num_pub_lec <- ggplot(df,aes(x=num_published_lectures)) + 
+  geom_density(color="black", fill="green")
+num_pub_lec
+num_pub_lec + geom_vline(aes(xintercept=mean(df$num_published_lectures)),
+            color="red", linetype="dashed", size=1)
+```
+```{r}
+#num_published_lectures
+cat("Range: ",range(df$num_published_lectures),"\n")
+cat("Mean: ",mean(df$num_published_lectures),"\n")
+cat("Standard Deviation:",sd(df$num_published_lectures),"\n")
+
+cat("Skewness:",skewness(df$num_published_lectures),"\n")
+cat("Kurtosis:",kurtosis(df$num_published_lectures))
+#Slight positive value for skewness indicates its Slightly skewed towards right.
+#Positive excess kurtosis with small magnitude indicates flat-tailed distribution which is slightly leptokurtic.
+```
+```{r}
+#Density plot to understand num_published_practice_tests
+num_pub_test <- ggplot(df,aes(x=num_published_practice_tests)) + 
+  geom_density(color="black", fill="red")
+num_pub_test
+num_pub_test + geom_vline(aes(xintercept=mean(df$num_published_practice_tests)),
+            color="yellow", linetype="dashed", size=1)
+```
+```{r}
+#num_published_practice-tests
+cat("Range: ",range(df$num_published_practice_tests),"\n")
+cat("Mean: ",mean(df$num_published_practice_tests),"\n")
+cat("Standard Deviation:",sd(df$num_published_practice_tests),"\n")
+
+cat("Skewness:",skewness(df$num_published_practice_tests),"\n")
+cat("Kurtosis:",kurtosis(df$num_published_practice_tests))
+#Large positive value for skewness indicates its largely skewed towards right.
+#Positive excess kurtosis indicates flat-tailed distribution which is leptokurtic.
+```
+```{r}
+#Density plot to understand rating
+rat <- ggplot(df,aes(x=rating)) + 
+  geom_density(color="black", fill="green")
+rat
+rat + geom_vline(aes(xintercept=mean(df$rating)),
+            color="red", linetype="dashed", size=1)
+```
+```{r}
+#rating
+cat("Range: ",range(df$rating),"\n")
+cat("Mean: ",mean(df$rating),"\n")
+cat("Standard Deviation:",sd(df$rating),"\n")
+
+cat("Skewness:",skewness(df$rating),"\n")
+cat("Kurtosis:",kurtosis(df$rating))
+#Negative value for skewness indicates its slightly skewed towards left.
+#Positive excess kurtosis with small magnitude indicates flat-tailed distribution which is slightly leptokurtic.
+```
+```{r}
+#Density plot to understand avg_rating
+avg_rat <- ggplot(df,aes(x=avg_rating)) + 
+  geom_density(color="black", fill="blue")
+avg_rat
+avg_rat + geom_vline(aes(xintercept=mean(df$avg_rating)),
+            color="yellow", linetype="dashed", size=1)
+```
+```{r}
+#avg_rating
+cat("Range: ",range(df$avg_rating),"\n")
+cat("Mean: ",mean(df$avg_rating),"\n")
+cat("Standard Deviation:",sd(df$avg_rating),"\n")
+
+cat("Skewness:",skewness(df$avg_rating),"\n")
+cat("Kurtosis:",kurtosis(df$avg_rating))
+#Negative value for skewness indicates its slightly skewed towards left.
+#Positive excess kurtosis with small magnitude indicates flat-tailed distribution which is slightly leptokurtic.
+```
+```{r}
+#Density plot to understand avg_rating
+amt <- ggplot(df,aes(x=df$price_detail__amount)) + 
+  geom_density(color="black", fill="red")
+amt
+amt + geom_vline(aes(xintercept=mean(df$price_detail__amount)),
+            color="blue", linetype="dashed", size=1)
+```
+```{r}
+#price_course
+cat("Range: ",range(df$price_detail__amount),"\n")
+cat("Mean: ",mean(df$price_detail__amount),"\n")
+cat("Standard Deviation:",sd(df$price_detail__amount),"\n")
+
+cat("Skewness:",skewness(df$price_detail__amount),"\n")
+cat("Kurtosis:",kurtosis(df$price_detail__amount))
+```
+```{r}
+for (i in 1:9932) {
+  if(is.na(df$discount_price__amount[i]))
+    df$discount_price__amount[i]=0
+}
+```
+```{r}
+#Density plot to understand avg_rating
+dis_amt <- ggplot(df,aes(x=df$discount_price__amount)) + 
+  geom_density(color="black", fill="green")
+dis_amt
+dis_amt + geom_vline(aes(xintercept=mean(df$discount_price__amount)),
+            color="red", linetype="dashed", size=1)
+```
+```{r}
+cat("Range: ",range(df$discount_price__amount),"\n")
+cat("Mean: ",mean(df$discount_price__amount),"\n")
+cat("Standard Deviation:",sd(df$discount_price__amount),"\n")
+
+cat("Skewness:",skewness(df$discount_price__amount),"\n")
+cat("Kurtosis:",kurtosis(df$discount_price__amount))
+#Skewed towards right
+#Leptokurtic
+```
+```{r}
+#Find the mean, median and standard deviation rating and num_reviews given based on num_published_practice_tests for different courses
+library(dplyr)
+rat_summary <- df%>%
+  group_by(num_published_practice_tests)%>%
+  summarise(rating_means=mean(rating),rating_medians=median(rating),rating_sd=sd(rating),reviews_means=mean(num_reviews),reviews_medians=median(num_reviews),reviews_sd=sd(num_reviews))
+print(rat_summary)
+```
+```{r}
+#Find the mean and sd of discount and price for all courses whose avrage rating is above 4.5:
+mean(df[df$avg_rating>4.5,]$discount_price__amount)
+mean(df[df$avg_rating>4.5,]$price_detail__amount)
+sd(df[df$avg_rating>4.5,]$discount_price__amount)
+sd((df[df$avg_rating>4.5,]$price_detail__amount))
+print(df[df$avg_rating>4.5,])
+```
+```{r}
+#Find the mean and variance of num_published_practice_tests in the year 2020 during lockdown.
+mean(df[df$published_time>"2020-03-21 23:59:59 UTC",]$num_published_practice_tests)
+mean(df$num_published_practice_tests)
+var(df[df$published_time>"2020-03-21 23:59:59 UTC",]$num_published_practice_tests)
+var(df$num_published_practice_tests)
+```
+```{r}
+#Analyse bar graph for columns created and published_time to analyse trend in courses over years.
+hist(df$created,xlab="Years",ylab="Frequency",main="Bar Plot for Courses created in particular year",col = "red",breaks=20)
+```
+```{r}
+#Multihist graph
+require(plotrix)
+df %>% select(6:8) -> df_num
+print(df_num)
+multhist(df_num)
+
+```
+```{r}
+#Strip chart
+library(ggplot2)
+stripchart(df$num_published_practice_tests~df$num_published_lectures,
+main="Number of Practice Tests vs Published lectures given to students online",
+xlab="Number_of_practice_tests",
+ylab="Number_of_published_lectures",
+method="jitter",
+col=c("red"),
+pch=16
+)
+```
+```{r}
+#Correlation Plot
+library(corrplot)
+library(ggcorrplot)
+df_num = df[sapply(df, is.numeric)]
+c <- cor(df_num)
+print(c)
+ggcorrplot(c, outline.color = "white")
+```
+```{r}
+#Correlation value between num_reviews and num_subscribers
+cor(df$num_subscribers, df$num_reviews)
+```
+```{r}
+#PCA Analysis:
+dfnum.pca <- prcomp(df_num[,-c(1)], center = TRUE,scale = TRUE)
+dfnum.pca
+summary(dfnum.pca)
+```
+```{r}
+str(dfnum.pca)
+```
+```{r}
+#Graph between PC1 and PC2
+library(ggfortify)
+df_num1.plot <- autoplot(dfnum.pca, data = df, colour = 'num_published_practice_tests')
+df_num1.plot
+```
+```{r}
+df_num2.plot <- autoplot(dfnum.pca, data = df, colour = 'num_published_lectures')
+df_num2.plot
+
+```
+```{r}
+df_num3.plot <- autoplot(dfnum.pca, data = df, colour = 'avg_rating')
+df_num3.plot
+
+```
