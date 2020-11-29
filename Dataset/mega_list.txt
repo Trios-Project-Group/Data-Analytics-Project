@@ -1,0 +1,828 @@
+(visual) basic
+(visual) foxpro
+.net
+2d game development
+3d animation
+3d game development
+3d printing
+3d scripting
+4th dimension/4d
+abap
+abc
+actionscript
+active directory
+ada
+admob
+ado.net
+adsense
+agile
+agilent vee
+ai programming
+ajax
+algol
+algol
+algorithms
+alice
+altium designer
+amazon aws
+amazon ec2
+amazon rds
+amazon s3
+amazon virtual private cloud (vpc)
+android development
+android game development
+android studio
+angelscript
+angular
+angularjs
+animation
+apache maven
+apache spark
+apex
+api
+api testing
+apl
+app development
+app inventor 2
+apple tv development
+apple watch development
+applescript
+arc
+arduino
+artificial intelligence
+ascii encoding
+asp
+asp.net
+asp.net mvc
+aspectj
+assembly
+assembly language
+asterisk
+atlas
+augeas
+augmented reality
+autohotkey
+autoit
+autolisp
+automation
+automator
+avenue
+awk
+aws certification
+aws certified advanced networking - specialty
+aws certified big data - specialty
+aws certified cloud practitioner
+aws certified data analytics - specialty
+aws certified database - specialty
+aws certified developer - associate
+aws certified devops engineer - professional
+aws certified machine learning - specialty
+aws certified security - specialty
+aws certified solutions architect - associate
+aws certified solutions architect - professional
+aws certified sysops administrator - associate
+aws lambda
+aws rekognition
+azure machine learning
+backbone.js
+backup recovery
+ballerina
+bash
+bash shell
+basic
+bbc basic
+bc
+bcpl
+beta
+big data
+bitcoin
+blender
+blitzmax
+blockchain
+blogging
+boo
+books
+bootstrap
+bourne shell
+bro
+bug bounty
+burp suite
+business analytics
+business intelligence
+c
+c shell
+c#
+c++
+c++/cli
+c-omega
+cakephp
+call center
+caml
+career change
+career coaching
+career development
+cascading style sheets
+ccent
+ccie routing and switching
+ccna 200-301
+ccnp routing and switching
+ccnp security
+centos
+certified ethical hacker (ceh)
+ceylon
+cfml
+cg
+cgi
+ch
+chill
+chyrp
+cil
+circuit design
+cisco
+cisco asa
+cisco ccna
+cisco ccnp
+cisco ospf
+cisco packet tracer
+cism
+cissp - certified information systems security professional
+citrix
+cl (os/400)
+clarion
+clean
+clipper
+clojure
+cloud computing
+cloud security
+clu
+cluster analysis
+cms
+cobol
+cobra
+cocoa
+codeigniter
+coding for kids
+coffeescript
+coldfusion
+comal
+command line
+common lisp
+comptia a+
+comptia linux+
+comptia network+
+comptia pentest+
+comptia security+
+computer forensics
+computer network
+computer science
+computer skills
+computer vision
+continuous integration
+controller area network (can bus)
+convolutional neural networks
+cookies
+coq
+corba
+core data
+cryptocurrency
+cryptography
+css
+css animations
+css flexbox
+ct
+curl
+cvs
+cyber security
+cyber security awareness
+d
+dagger injection framework
+dapp
+dart
+dart programming language
+data analysis
+data mining
+data modeling
+data science
+data security
+data structures
+data visualization
+data warehouse
+database administration
+database design
+database design & development
+database developer tools
+database management
+database programming
+dcl
+dcpu-16 asm
+debugging
+decision making
+decision trees
+deep learning
+delphi
+delphi/object pascal
+design pattern
+design tools
+developer tools
+devops
+dibol
+digital circuit
+digital forensics
+digital marketing
+distributed computing
+django
+dns
+docker
+dom
+dreamweaver
+drupal
+drupal coding standards
+dylan
+dynamic programming
+e
+e-commerce
+ec
+ecl
+eclipse ide
+ecmascript
+egl
+eiffel
+electronics
+elementor
+elixir
+elm
+emacs lisp
+email marketing
+embedded c
+embedded systems
+emmet
+encryption
+erlang
+esp8266
+ethereum
+ethical hacking
+etoys
+euphoria
+excel
+excel analytics
+excel charts
+excel formulas and functions
+excel macros
+excel shortcut
+excel vba
+exec
+express framework
+extreme programming
+f#
+facebook marketing
+factor
+falcon
+fancy
+fantom
+felix
+ffmpeg
+firebase
+firewall
+flappy bird clone
+flask
+flux
+forth
+forth
+fortran
+fortran
+fortress
+freelancing
+front end web development
+full stack web development
+functional programming
+gambas
+game design
+game development fundamentals
+game mechanics
+game physics
+gate
+gis
+git
+github
+gns3
+gnu
+gnu octave
+gnustep
+go
+go (golang)
+go programming language
+google appsscript
+google cloud
+google flutter
+gosu
+graphql
+groovy
+hardware
+haskell
+haxe
+heron
+hmi
+hpl
+html
+html5
+http
+hyper v
+hyperledger fabric
+hypertalk
+iaas
+ico
+icon
+idl
+iis
+image processing
+imagemagick
+in-app purchase
+inform
+information management
+information security
+information systems
+informix-4gl
+intercal
+internet of things
+io
+ioke
+ionic
+ios development
+ios game development
+ip addressing
+irrigation
+it certification
+it fundamentals
+it networking fundamentals
+it security
+j
+j#
+jade
+java
+java algorithms
+java certification
+java ee
+java fx script
+java swing
+javafx
+javascript
+javascript
+jdbc
+joomla
+jpa
+jquery
+jscript
+jscript.net
+json
+julia
+kali linux
+keylogger
+korn shell
+kotlin
+kubernetes
+labview
+ladder logic
+lambda expressions
+lamp stack
+laravel
+lasso
+latex
+law
+limbo
+lingo
+linked lists
+linux
+linux administration
+linux certification
+linux command line
+linux programming
+lisp
+logic
+logistic regression
+logo
+logtalk
+lotusscript
+lpc
+lpic
+lpic-1: linux administrator
+lua
+lustre
+m4
+machine learning
+macos
+mad
+magic
+magik
+malbolge
+malware
+management consulting
+mandriva linux
+mantis
+mantisbt
+maple
+mariadb
+material design
+mathematica
+matlab
+max/msp
+maxscript
+mcsa
+mdn
+mean stack
+mel
+mercurial
+mercury
+mern stack
+metaquotes language
+metasploit
+meteor framework
+microcontroller
+microsoft 70-410
+microsoft 70-411
+microsoft 70-412
+microsoft 70-414
+microsoft 70-461
+microsoft 70-740
+microsoft 70-741
+microsoft 70-742
+microsoft 70-761
+microsoft 70-764
+microsoft 77-728
+microsoft 98-365
+microsoft 98-367
+microsoft az-103
+microsoft az-104
+microsoft az-300
+microsoft az-301
+microsoft az-303
+microsoft az-400
+microsoft az-500
+microsoft az-900
+microsoft azure
+microsoft certification
+microsoft dp-100
+microsoft dp-200
+microsoft md-101
+microsoft ms-100
+microsoft ms-101
+microsoft ms-500
+microsoft ms-900
+microsoft office
+microsoft outlook
+microsoft power bi
+microsoft sql
+microsoft word
+mirah
+mitm attacks
+miva
+ml
+mobile app design
+mobile development
+mobile game development
+modbus
+modula-2
+modula-3
+mongodb
+monkey
+moo
+motion graphics
+moto
+mpi
+ms access
+ms-dos
+ms-dos batch
+ms-windows
+msxml
+multichain
+multithreading
+mumps
+mvvm
+mysql
+mysqli
+natural
+natural language processing
+ncurses
+nemerle
+nestjs
+netbeans ide
+netcdf
+network & security
+network administration
+network engineering
+network infrastructure
+network programming
+network security
+network theory
+neural networks
+next.js
+niche website
+nimrod
+nmap
+node.js
+nodejs
+nqc
+nsis
+nu
+numpy
+nxt-g
+oauth
+oberon
+object oriented programming
+object rexx
+object-oriented programming
+objective-c
+objective-j
+ocaml
+occam
+ooc
+opa
+opencl
+opencv
+openedge abl
+openid
+openssl
+operating systems
+opl
+oracle 1z0-062
+oracle 1z0-071
+oracle 1z0-082
+oracle 1z0-083
+oracle 1z0-1042-20
+oracle 1z0-1055-20
+oracle 1z0-1065-20
+oracle 1z0-1067
+oracle 1z0-1067-20
+oracle 1z0-1072
+oracle 1z0-1072-20
+oracle 1z0-1084-20
+oracle 1z0-1085-20
+oracle 1z0-144
+oracle 1z0-447
+oracle 1z0-808
+oracle 1z0-809
+oracle 1z0-815
+oracle 1z0-931
+oracle 1z0-932
+oracle 1z0-997
+oracle 1z0-997-20
+oracle apex
+oracle certification
+oracle database
+oracle sql
+os development
+other in it & software
+owasp
+oz
+palo alto firewall
+pandas
+paradox
+parrot
+parse
+pascal
+pdo
+penetration testing
+performance optimization
+perl
+photoshop
+php
+php mvc
+phprojekt
+phpunit
+pic microcontroller
+pike
+pilot
+pivot tables
+pl/i
+pl/sql
+pliant
+postgresql
+postscript
+pov-ray
+power pivot
+powerbasic
+powerpoint
+powerscript
+powershell
+predictive analytics
+processing
+programming fundamentals
+programming languages
+project management
+prolog
+prolog
+proteus
+psd to html
+puppet
+pure data
+push notification
+python
+python gui
+python scripting
+q
+r
+racket
+rapidweaver
+raspberry pi
+ravendb
+react
+react hooks
+react native
+reactive.js
+realbasic
+rebol
+red hat enterprise linux (rhel)
+redux for javascript
+redux framework
+refactoring
+regex
+regression analysis
+regular expressions
+responsive design
+rest api
+restful api
+reverse engineering
+revolution
+rexx
+rexx
+robotics
+robots
+routing protocol
+rpg (os/400)
+ruby
+ruby on rails
+rust
+rxjava
+s
+s-plus
+sap
+sap abap
+sap basis
+sap bw
+sap fico
+sap fiori
+sap hana
+sap mm
+sap pp
+sap project
+sap sd
+sap security
+sap warehouse management
+sapui5
+sas
+sather
+scala
+scheme
+scikit-learn
+scilab
+secure shell
+security certification
+security hacking
+sed
+sed
+seed7
+selenium testing framework
+selenium webdriver
+self
+seo
+server administration
+server infrastructure
+sgml
+shell
+shell scripting
+signal
+simula
+simulink
+slate
+smalltalk
+smart contracts
+smarty
+smil
+snobol
+snort
+soap
+software architecture
+software defined networking
+software development
+software engineering
+software testing
+sorting algorithms
+spark
+speakeasy
+spring boot
+spring framework
+spritekit
+spss
+sql
+sql server
+sqlite
+sqr
+squeak
+squirrel
+ssh
+ssi
+standard ml
+stata
+statistical modeling
+statistics
+stripe payments platform
+subnetting
+subversion
+suneido
+supercollider
+svelte framework
+svg
+swift
+swiftui
+system administration
+system programming
+tacl
+tcl
+tcl/tk
+tensorflow
+tex
+tex
+thinbasic
+tinkercad
+tkinter
+tom
+transact-sql
+turing
+twitter marketing
+typescript
+ubuntu
+umbraco
+unified modeling language
+unity
+unix
+unix programming
+unix shells
+url
+user experience design
+user interface
+vala/genie
+vb.net
+vba
+vbscript
+verilog
+vhdl
+vi
+viml
+virtual machine
+virtual reality
+virtualbox
+virtualization
+visual basic
+visual basic .net
+visual foxpro
+visual studio
+vlookup
+vpn
+vrml
+vue js
+vuex
+vuforia
+wap/wml
+wcf
+web app development
+web application security tester
+web design
+web development
+web forms
+web frameworks
+web scraping
+web security
+web standards
+webdna
+webkit web inspector
+weka
+whitespace
+windows server
+windows server certification
+wireless networking
+wireless security
+wireshark
+wordpress
+wordpress plugins
+wordpress security
+wordpress themes
+wsdl
+wsgi
+x10
+xamarin
+xaraya
+xbase
+xbase++
+xcode
+xen
+xenserver
+xml
+xpl
+xquery
+xsl
+xslt
+yacc
+yorick
+yui
+z shell
+zend framework
+zikula
