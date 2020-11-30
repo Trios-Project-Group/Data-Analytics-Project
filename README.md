@@ -57,6 +57,11 @@ A compilation of all the development and IT related courses which are available 
 |     |--- ML_Reg.png
 |     |--- Recommender_System.png
 |     |--- agglomerative.png
+|     |--- OLS.png
+|     |---confusion_matrix.png
+|     |---ELBOW.png
+|     |---correlation.png
+|     |---regression_plot.png
 |
 |
 |
