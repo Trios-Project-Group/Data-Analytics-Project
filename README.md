@@ -64,6 +64,8 @@ A compilation of all the development and IT related courses which are available 
 |
 |--- README.md
 |
+|--- requirements.txt
+|
 |
 +
 
