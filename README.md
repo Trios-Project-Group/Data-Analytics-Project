@@ -1,5 +1,6 @@
 # Data-Analytics-Project
-Predictive And Prescriptive Analytics On Courses Offered By Udemy
+## Predictive And Prescriptive Analytics On Courses Offered By Udemy
+
 
 
 ```
@@ -7,8 +8,7 @@ Dataset :
 https://www.kaggle.com/jilkothari/udemy-courses-development
 
 Description : 
-A compilation of all the development related courses (10 thousand courses) 
-which are available on Udemy's website. 
+A compilation of all the development and IT related courses which are available on Udemy's website. 
 ```
 
 
@@ -68,3 +68,29 @@ which are available on Udemy's website.
 +
 
 ```
+
+
+
+### *Setup Guide*
+
+#### Step 1: Install required softwares and modules
+
+> 1) Install Anaconda <br>
+> 2) Install R Studio <br>
+> 3) pip3 install -r requirements.txt <br>
+> 4) Launch the jupyter notebook in the project folder <br>
+
+
+#### Step 2 : Preprocessing and Visualization (Optional - To get final dataset)
+
+> 1) Go to *Preprocessing* Folder
+> 2) Run the files to get the final datasets (These are already present in *Dataset* Folder)
+
+#### Step 3 : Model Building
+
+> 1) Go to the *Model* Folder
+> 2) Run the files to see the results and some *great insights* related to the data
+
+#### Step 4 : Results
+
+> The screenshots of the results in present in *Results* Folder
